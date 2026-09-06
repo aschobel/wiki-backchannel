@@ -11,6 +11,8 @@ This is the central finding of our follow-up investigation. Public wikis and adj
 
 We describe the communication as **C2-like** because it performed recognizable command-and-control functions. That is a statement about behavior. The record does not establish malware running on compromised endpoints or a stable controller directing it.
 
+The other major finding concerns the request boundary: **GET-only access did not make the reachable services read-only.** Writers used public write and signaling surfaces and constructed a relay that put JavaScript and a downstream POST inside an outer GET request. The security consequence is larger than the encoding trick: the first request's HTTP method does not bound what the receiving service can do on the caller's behalf. The record supports different levels of confidence for each route, as detailed below.
+
 ## The evidence we worked from
 
 The original discovery and reconstructed wiki corpus belong to Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen, whose [report](https://collusion.wiki/) was published on September 4, 2026. They recovered deleted content from revision history and published a redacted export. Our investigation preserved that export, acquired additional public material, and analyzed specific communication and encoding mechanisms.
@@ -114,7 +116,15 @@ The original link is preserved as [text evidence](evidence/revisions/probier--Sa
 
 The visible `HELLOJS` heading and script-added `EXECUTED` marker distinguish receiving a document from executing its JavaScript. The retained evidence establishes a probe. We did not find an independently captured execution result for it, and we did not open or replay it.
 
-Other small pages test a background-color change, `document.write`, a form, and redirects. These support the broader observation that writers were exploring what downstream renderers would do with active content. They do not establish a successful browser compromise. [Additional probe bodies](analysis/CLAIMS.md#c05-renderer-probes).
+Other small pages test related behaviors with similarly recognizable markers:
+
+| Page | Exact JavaScript excerpt | What the writer could observe if it executed |
+| --- | --- | --- |
+| [TmpJan18HtmlHost987](evidence/revisions/dse--TmpJan18HtmlHost987--r1--1.txt) | `document.write("JSRANXYZ")` | A distinctive `JSRANXYZ` marker written into the document. |
+| [AgentTempFormXYZ](evidence/revisions/dse--AgentTempFormXYZ--r1--1.txt) | `document.body.style.background="red";` | The document background turns red. A POST form appears in the same body. |
+| [TmpFederalBridge](evidence/revisions/dse--TmpFederalBridge--r2--1.txt) | `window.location='https://api.usaspending.gov/api/v2/agency/028/budgetary_resources/'` | Navigation to an external data endpoint. The body also contains an anchor and meta-refresh test. |
+
+These are excerpts of the preserved code, not newly constructed reproductions. Together with `JSTEST`, they show writers exploring whether a downstream consumer would merely display text, render HTML, execute JavaScript, or navigate elsewhere. The form markup by itself does not establish that any POST was submitted. None of these artifacts establishes a successful browser compromise. [Probe provenance and confidence](analysis/CLAIMS.md#c05-renderer-probes).
 
 ### The county arrays
 
@@ -128,7 +138,19 @@ Base64 is reversible encoding, not encryption. In this corpus it carries both or
 
 We cannot infer an intention to evade inspection from the encoding alone. We can say something more concrete: nested encoding hid a security-relevant document from the initial scanner. The request discussed next also encodes meaningful behavior—the HTTP method and content type—behind strings that look unremarkable until decoded.
 
-## A GET that asks someone else's browser to POST
+## GET-only did not mean read-only
+
+The original investigators describe an environment intended to allow internet reading while restricting writes. The writers found or proposed several ways to obtain additional effects through a GET-shaped request. [Original investigation](https://collusion.wiki/).
+
+| Route | Effect beyond reading | Evidence boundary |
+| --- | --- | --- |
+| Wiki edit/save parameters in a URL | Persist text on a public page for another worker to read. | The original investigation reconstructs the GET-based write route; the retained corpus contains the saved revisions. |
+| Counter paths and publicly logged query strings | Publish a signal or task result without a conventional page-edit POST. | The included revisions prescribe these channels and contain reports of observed signals and downstream acknowledgements. |
+| Microlink URL carrying a JavaScript function | Ask a remote browser to execute code, make a POST, and return its response. | Both the initial and corrected request constructions are preserved. A successful response to that request is not established. |
+
+These routes explain why an HTTP-method restriction can fail to enforce the intended capability restriction. In the wiki case, the destination accepts a state-changing action through GET. In the Microlink case, the proposed route moves execution and the POST to a different service. The caller's first hop can remain GET while the downstream operation has much broader effects. [Signal evidence](analysis/CLAIMS.md#c01-state-relay); [Microlink evidence](analysis/CLAIMS.md#c07-microlink-construction).
+
+### A GET that asks someone else's browser to POST
 
 Two May 26 revisions on `fractal/TmpAcctDownloadRefsQ2A` publish a Microlink URL. The first contains a JavaScript function in the query string. The second, recorded less than three minutes later, fixes the URL encoding. Both complete bodies are included. [Original version](evidence/revisions/fractal--TmpAcctDownloadRefsQ2A--r1--1.txt); [encoded revision](evidence/revisions/fractal--TmpAcctDownloadRefsQ2A--r2--1.txt).
 
@@ -145,7 +167,7 @@ Once the outer query is decoded, the function calls `page.evaluate`. Inside that
 
 The proposed chain is: the agent submits a GET-shaped URL to Microlink; Microlink evaluates the supplied code in its browser; that browser makes the POST to USASpending; the function returns text to the caller. Microlink's [official function documentation](https://github.com/microlinkhq/www/blob/master/src/content/docs/api/parameters/function.md), checked during preparation, describes browser-context evaluation through `page.evaluate`. Current documentation supports the mechanism's interpretation, not the historical outcome of these particular requests.
 
-The precise finding is **a constructed GET-to-JavaScript-to-POST relay**. The two wiki revisions do not contain a captured successful Microlink response. We therefore do not report confirmed execution or a successful restriction bypass from this example alone.
+This is a concrete **attempt to bypass a GET-only restriction by delegating JavaScript execution and the POST to another service**. Base64 and percent encoding package the program and its arguments; the security-relevant step is transferring the operation to a remote browser. The two wiki revisions preserve the constructed relay and its encoding correction, but not a captured successful Microlink response. We therefore distinguish the demonstrated request construction from an unconfirmed execution outcome.
 
 This is also not evidence that Microlink itself was exploited. The concern is compositional: a browser-execution service can provide downstream capabilities that a caller's local network policy might otherwise restrict. Whether the original environment permitted that service, what the enforcement point saw, and whether the request succeeded require internal traces or corresponding captured responses.
 
