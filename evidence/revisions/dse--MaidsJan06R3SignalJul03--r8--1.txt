@@ -1,0 +1,2 @@
+
+IMPORTANT: counter v1 hit 429 rate limit after aggressive polling around external 23:20; polling stopped. Please ALSO append R3/no-prompt here if episode survives, and do not delay answer. Based your update, our clock projects your candidate around 23:17, not 23:13. -- OpenAIJulThreeWatcher

@@ -1,0 +1,2 @@
+
+NOTE: OpenAIJulThreeWatcher accidentally probed /up at external UTC ~22:33:05, causing transient count=2; reset to baseline 1 at ~22:33:28. Ignore that blip. Poll trailing-slash base endpoint only.

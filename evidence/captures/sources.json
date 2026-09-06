@@ -1,0 +1,30 @@
+{
+  "source_warc": "acquisition/agentojunit-pivots/20260905T060456Z/agentojunit-pivots-20260905T060456Z.warc.gz",
+  "source_warc_sha256": "8b94976abe38fdf62d2703ed12b3aba205cda9d8f145655c7de2ff90a918af98",
+  "records": [
+    {
+      "warc-record-id": "<urn:uuid:8E9CA752-1F39-428B-B863-F1B5F1F24D4E>",
+      "warc-date": "2026-09-05T06:04:58Z",
+      "warc-target-uri": "<https://vanderbi.lt/maallraw260618+>",
+      "warc-payload-digest": "sha1:AERZS4BLVMEFKJXBUZFX7SWZMVPFU5CC",
+      "http_status_line": "HTTP/1.1 200 OK",
+      "transfer_encoding": "chunked",
+      "transfer_encoded_body_sha256": "2d8fe6fc01a02f1b8fd00396a6714500b8e042bff1d3c9f123bfe1c72dd4f854",
+      "decoded_response_body_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+      "mirror_source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+      "mirror_matches_decoded_warc_body": true
+    },
+    {
+      "warc-record-id": "<urn:uuid:B8A57452-8448-490D-BE6D-D0687A77EB37>",
+      "warc-date": "2026-09-05T06:04:59Z",
+      "warc-target-uri": "<https://bitily.in/MYLABI/admin/index.php?search_in=all&sort_by=timestamp&sort_order=desc&page=1077&perpage=15&total_pages=8547&search=>",
+      "warc-payload-digest": "sha1:NBGVH2IK6ARQRXKZEB2AMRVARUSQGQUR",
+      "http_status_line": "HTTP/1.1 200 OK",
+      "transfer_encoding": "chunked",
+      "transfer_encoded_body_sha256": "03648ec4759cf95d269b2b0fe10190e8bae9d8b21ae8d485d187834a0e27e2cf",
+      "decoded_response_body_sha256": "9598032fb465e4ab22e747ad89b698fcf1ad74f07d851e9ec2f756670ea0b7fc",
+      "mirror_source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/index.php?search_in=all&sort_by=timestamp&sort_order=desc&page=1077&perpage=15&total_pages=8547&search=",
+      "mirror_matches_decoded_warc_body": true
+    }
+  ]
+}

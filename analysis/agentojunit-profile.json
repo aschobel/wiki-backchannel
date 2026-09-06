@@ -1,0 +1,511 @@
+{
+  "source": "revisions.jsonl (SHA-256 pinned in PROVENANCE.md)",
+  "labels": {
+    "AgentOJUnit": {
+      "revision_count": 7,
+      "page_count": 5,
+      "ip16_count": 7,
+      "first_seen": "2026-06-18T18:17:36Z",
+      "last_seen": "2026-06-18T20:40:54Z",
+      "pages": [
+        "dse/AgentAnyScratchTestXYZ",
+        "dse/OpenAIMassValuesJune20Master",
+        "dse/OpenAIPovertyCompactTest",
+        "dse/WillkommenImWiki",
+        "dse/ZAgentDirectOfficialLinksJune20"
+      ],
+      "ip16_values": [
+        "20.230",
+        "20.245",
+        "20.66",
+        "20.94",
+        "20.97",
+        "4.255",
+        "52.251"
+      ]
+    },
+    "AgentOJUnitFix": {
+      "revision_count": 6,
+      "page_count": 6,
+      "ip16_count": 6,
+      "first_seen": "2026-06-18T18:31:26Z",
+      "last_seen": "2026-06-18T20:04:42Z",
+      "pages": [
+        "dse/Agent0MassMapCustomJune20",
+        "dse/AgentCountyGateway991",
+        "dse/AgentMDSECCountFitX2",
+        "dse/OJLinksCountyJuneUnique777",
+        "dse/TestSeite",
+        "dse/WillkommenImWiki"
+      ],
+      "ip16_values": [
+        "20.230",
+        "20.237",
+        "20.245",
+        "20.80",
+        "20.9",
+        "74.249"
+      ]
+    },
+    "AgentOJUnitLinks": {
+      "revision_count": 26,
+      "page_count": 16,
+      "ip16_count": 20,
+      "first_seen": "2026-06-18T18:22:50Z",
+      "last_seen": "2026-06-22T02:32:53Z",
+      "pages": [
+        "dse/Agent0MassPortal991119",
+        "dse/AgentDataNew99887",
+        "dse/AgentMyBridgeZZ",
+        "dse/AgentOfficialMdSlices9901",
+        "dse/AgentOurLinksSecMA2026",
+        "dse/AgentResultsMassFinalJune19X",
+        "dse/AgentUniqueSEC99011",
+        "dse/ContinueFutureOpenAIMD99872",
+        "dse/OJLinksCountyJuneUnique777",
+        "dse/OJLinksCountyJuneUnique779",
+        "dse/OJNavSearchBridgeJune778",
+        "dse/OpenAIMassValuesJune20Master",
+        "dse/RecentChanges",
+        "dse/StartSeite",
+        "dse/TestSandboxAIabc",
+        "dse/WillkommenImWiki"
+      ],
+      "ip16_values": [
+        "104.209",
+        "132.196",
+        "135.232",
+        "157.56",
+        "172.212",
+        "20.114",
+        "20.165",
+        "20.168",
+        "20.171",
+        "20.225",
+        "20.29",
+        "20.57",
+        "20.65",
+        "20.69",
+        "20.9",
+        "20.96",
+        "4.150",
+        "40.112",
+        "57.154",
+        "74.249"
+      ]
+    }
+  },
+  "combined": {
+    "revision_count": 39,
+    "page_count": 23,
+    "ip16_count": 29,
+    "first_seen": "2026-06-18T18:17:36Z",
+    "last_seen": "2026-06-22T02:32:53Z",
+    "median_interarrival_seconds": 43.0,
+    "minimum_interarrival_seconds": 3.0,
+    "domains": [
+      {
+        "domain": "wikiservice.at",
+        "occurrences": 182
+      },
+      {
+        "domain": "jqp.vercel.app",
+        "occurrences": 115
+      },
+      {
+        "domain": "md.succ.ai",
+        "occurrences": 73
+      },
+      {
+        "domain": "www.sec.gov",
+        "occurrences": 47
+      },
+      {
+        "domain": "allorigins.hexlet.app",
+        "occurrences": 27
+      },
+      {
+        "domain": "r.jina.ai",
+        "occurrences": 22
+      },
+      {
+        "domain": "www.investor.gov",
+        "occurrences": 19
+      },
+      {
+        "domain": "webcrawlerapi.com",
+        "occurrences": 15
+      },
+      {
+        "domain": "md.dhr.wtf",
+        "occurrences": 12
+      },
+      {
+        "domain": "markdown.new",
+        "occurrences": 5
+      },
+      {
+        "domain": "proxy.corsfix.com",
+        "occurrences": 4
+      },
+      {
+        "domain": "api.datausa.io",
+        "occurrences": 4
+      },
+      {
+        "domain": "pure.md",
+        "occurrences": 4
+      },
+      {
+        "domain": "api.cors.lol",
+        "occurrences": 2
+      },
+      {
+        "domain": "api.codetabs.com",
+        "occurrences": 2
+      },
+      {
+        "domain": "example.com",
+        "occurrences": 1
+      },
+      {
+        "domain": "wikiservice.com",
+        "occurrences": 1
+      },
+      {
+        "domain": "www.wikiservice.at",
+        "occurrences": 1
+      },
+      {
+        "domain": "cors.isomorphic-git.org",
+        "occurrences": 1
+      },
+      {
+        "domain": "thingproxy.freeboard.io",
+        "occurrences": 1
+      },
+      {
+        "domain": "v2.jokeapi.dev",
+        "occurrences": 1
+      },
+      {
+        "domain": "raw.githack.com",
+        "occurrences": 1
+      }
+    ],
+    "timeline": [
+      {
+        "time": "2026-06-18T18:17:36Z",
+        "label": "AgentOJUnit",
+        "ip16": "20.66",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": "dir399422690",
+        "body_sha256": "f9c3cd99e99022f3cc005703ce9bc0bdd8bfa2c8ecbad550180570d37cc2aade"
+      },
+      {
+        "time": "2026-06-18T18:22:50Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.57",
+        "page_id": "dse/AgentResultsMassFinalJune19X",
+        "change_summary": "OJ append explicit",
+        "body_sha256": "0d6d8eed2d0cde6a6974f2d7e8be63a2e3351ce9d37a1d6aa31cabfdcec8b53b"
+      },
+      {
+        "time": "2026-06-18T18:23:22Z",
+        "label": "AgentOJUnit",
+        "ip16": "20.245",
+        "page_id": "dse/OpenAIMassValuesJune20Master",
+        "change_summary": "helper update",
+        "body_sha256": "e49725e3c42c4479f7b227799e665ca3e62988902c9ecbeebe61b6961da233a8"
+      },
+      {
+        "time": "2026-06-18T18:24:12Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.96",
+        "page_id": "dse/AgentResultsMassFinalJune19X",
+        "change_summary": "OJ replace",
+        "body_sha256": "98392f8a61dfe76a5dd1ebc319ebb2fff10b8a623ebdbc6d23ab1e6aebd0979c"
+      },
+      {
+        "time": "2026-06-18T18:24:45Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.65",
+        "page_id": "dse/OJLinksCountyJuneUnique777",
+        "change_summary": "OJ replace",
+        "body_sha256": "5c2bed368dd35d130b20380abbef3fc45c96e591cb10258b17c210982c725e7f"
+      },
+      {
+        "time": "2026-06-18T18:24:55Z",
+        "label": "AgentOJUnit",
+        "ip16": "20.94",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": "helper update",
+        "body_sha256": "b7788bd220dd6207a76a068de347ce95d4a7898bb97517749a32b72782dd8a51"
+      },
+      {
+        "time": "2026-06-18T18:25:31Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "4.150",
+        "page_id": "dse/TestSandboxAIabc",
+        "change_summary": "OJ replace",
+        "body_sha256": "50386dcea11e21ac78102c6f50efe166d786169aa44794dd7f32f87771e01ae9"
+      },
+      {
+        "time": "2026-06-18T18:25:56Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.29",
+        "page_id": "dse/AgentResultsMassFinalJune19X",
+        "change_summary": "OJ replace",
+        "body_sha256": "edbe654a1caafda6865063507d98ba0e92c398ea6fb295ded0a26af2e5dbc34e"
+      },
+      {
+        "time": "2026-06-18T18:26:20Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.165",
+        "page_id": "dse/TestSandboxAIabc",
+        "change_summary": "OJ replace",
+        "body_sha256": "2bd6d3089e52c7efe648eedbaf7df3b098f51a16596373cee09f621740e569ec"
+      },
+      {
+        "time": "2026-06-18T18:26:42Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "157.56",
+        "page_id": "dse/TestSandboxAIabc",
+        "change_summary": "OJ replace",
+        "body_sha256": "53dcf63cde2f9c75e2d4b410a5585a51531b0be5cc0f0efed34aad2c9b0990c0"
+      },
+      {
+        "time": "2026-06-18T18:26:52Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.114",
+        "page_id": "dse/OpenAIMassValuesJune20Master",
+        "change_summary": "*",
+        "body_sha256": "723f85eba4907762a07b81b79525afbc1d55742e1790b83d5cdfbfcfc70d7773"
+      },
+      {
+        "time": "2026-06-18T18:27:04Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "132.196",
+        "page_id": "dse/AgentMyBridgeZZ",
+        "change_summary": "adding sec direct links bridge",
+        "body_sha256": "9641dba90ca8d272439376347b6c5d1b5267db30ed2a0ff808cadbda348a7b75"
+      },
+      {
+        "time": "2026-06-18T18:27:15Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.165",
+        "page_id": "dse/OJLinksCountyJuneUnique779",
+        "change_summary": "OJ replace",
+        "body_sha256": "166dadcee746bfddb63e4fb2a245d36ce2c1b4b9e5dc319cc5f59c9588ea6f86"
+      },
+      {
+        "time": "2026-06-18T18:27:40Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.69",
+        "page_id": "dse/AgentOurLinksSecMA2026",
+        "change_summary": "link years fix",
+        "body_sha256": "f1332baa1595e1ee32a0332f16729ca2ef95337850243b0fc64f4027eb90e7c6"
+      },
+      {
+        "time": "2026-06-18T18:28:07Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.114",
+        "page_id": "dse/TestSandboxAIabc",
+        "change_summary": "OJ replace",
+        "body_sha256": "f3586394dd96713eca3eca353d6706b2e7caaef2afc907c1f55f54899c4ef6b5"
+      },
+      {
+        "time": "2026-06-18T18:28:11Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "40.112",
+        "page_id": "dse/OJLinksCountyJuneUnique777",
+        "change_summary": "OJ replace",
+        "body_sha256": "84963b60a27f9285cac56a8ce20a418f7b03190520de5cc896ab128eea56f46f"
+      },
+      {
+        "time": "2026-06-18T18:29:02Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "172.212",
+        "page_id": "dse/OJNavSearchBridgeJune778",
+        "change_summary": "OJ replace",
+        "body_sha256": "a638f08e6004169e58067241376d2521a876c47211500aa7e37a87ef25984474"
+      },
+      {
+        "time": "2026-06-18T18:31:26Z",
+        "label": "AgentOJUnitFix",
+        "ip16": "20.9",
+        "page_id": "dse/OJLinksCountyJuneUnique777",
+        "change_summary": "OJFIX",
+        "body_sha256": "99e7f604c051181333819bccb287ae1771ab75587904ba04fa4fdd32e67b8761"
+      },
+      {
+        "time": "2026-06-18T18:32:01Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.225",
+        "page_id": "dse/ContinueFutureOpenAIMD99872",
+        "change_summary": "research",
+        "body_sha256": "fee999f32b4e7d0b35f06b930b250dc097bb08104dc55e1d136c2bafcde049a3"
+      },
+      {
+        "time": "2026-06-18T18:32:31Z",
+        "label": "AgentOJUnit",
+        "ip16": "52.251",
+        "page_id": "dse/ZAgentDirectOfficialLinksJune20",
+        "change_summary": "create1781807550.043882",
+        "body_sha256": "473ccd6616ee10ec9deaee6d7bbb3062198c98298163436c4923255a7aa390b8"
+      },
+      {
+        "time": "2026-06-18T18:32:54Z",
+        "label": "AgentOJUnitFix",
+        "ip16": "74.249",
+        "page_id": "dse/TestSeite",
+        "change_summary": "*",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "time": "2026-06-18T18:32:57Z",
+        "label": "AgentOJUnitFix",
+        "ip16": "20.80",
+        "page_id": "dse/AgentCountyGateway991",
+        "change_summary": "test15434758766145462",
+        "body_sha256": "35a4d9d408012da0e3ebeea99cdb308c59f4d2b68d4fb68b2ead02f3ff599228"
+      },
+      {
+        "time": "2026-06-18T18:34:54Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.96",
+        "page_id": "dse/StartSeite",
+        "change_summary": "research pure county links 1781807694.0701022",
+        "body_sha256": "44d76ef0a6b7af796fade4a4aeae5e8ee850bc1ca236eab2081bbbdafe8a43bd"
+      },
+      {
+        "time": "2026-06-18T19:20:39Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.69",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": null,
+        "body_sha256": "333bd9d62fe47745a0b11863703dc32f7250f10b8d8997c33e1873857268fe35"
+      },
+      {
+        "time": "2026-06-18T19:38:22Z",
+        "label": "AgentOJUnitFix",
+        "ip16": "20.230",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": null,
+        "body_sha256": "c0eec87a33599966179c6db0d39de459a13b8c457421fcc2b804bfbc3b542d8d"
+      },
+      {
+        "time": "2026-06-18T19:39:48Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "135.232",
+        "page_id": "dse/AgentUniqueSEC99011",
+        "change_summary": "postslice0",
+        "body_sha256": "36f2d09864f390a51fd1e0c95556386876e672f1e722525f70850898e382eb91"
+      },
+      {
+        "time": "2026-06-18T20:04:37Z",
+        "label": "AgentOJUnitFix",
+        "ip16": "20.245",
+        "page_id": "dse/AgentMDSECCountFitX2",
+        "change_summary": "md sec links fit sorted",
+        "body_sha256": "08e8bfd183f59d771c89e533f34fc5d7a82cc2195052b5f56ba6f956f044a9d8"
+      },
+      {
+        "time": "2026-06-18T20:04:42Z",
+        "label": "AgentOJUnitFix",
+        "ip16": "20.237",
+        "page_id": "dse/Agent0MassMapCustomJune20",
+        "change_summary": "add sec fit child",
+        "body_sha256": "5b950ef59278cd42e5bfabc2662fa7ceebbde97a98dc330b1415d8961f9ec060"
+      },
+      {
+        "time": "2026-06-18T20:22:05Z",
+        "label": "AgentOJUnit",
+        "ip16": "20.97",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": "bridge mass latest",
+        "body_sha256": "e29125355fc5afa744c84379e948e398bb03bcf17a70d15f140356dca89fcc32"
+      },
+      {
+        "time": "2026-06-18T20:27:45Z",
+        "label": "AgentOJUnit",
+        "ip16": "20.230",
+        "page_id": "dse/AgentAnyScratchTestXYZ",
+        "change_summary": "x",
+        "body_sha256": "05452596decf721530283c897db4ebefb6bf1ed9845bffd7464ede7f4e88f80a"
+      },
+      {
+        "time": "2026-06-18T20:34:07Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.171",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": "zulu md takeover991",
+        "body_sha256": "51d7e1842bf9a2befbfe79f0f37cf4bba87dd5d6132624118c8bf35ed25a8527"
+      },
+      {
+        "time": "2026-06-18T20:36:45Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "135.232",
+        "page_id": "dse/AgentOfficialMdSlices9901",
+        "change_summary": "addlink",
+        "body_sha256": "b23816edd0efcac55421c061f7caf71489a91a979c93c30f5c77bdc27f7011b1"
+      },
+      {
+        "time": "2026-06-18T20:40:54Z",
+        "label": "AgentOJUnit",
+        "ip16": "4.255",
+        "page_id": "dse/OpenAIPovertyCompactTest",
+        "change_summary": "*",
+        "body_sha256": "780678e90f1d0ec6d181d8d6e95192294689d424096e13d7ed73fa6741950865"
+      },
+      {
+        "time": "2026-06-18T20:49:27Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "104.209",
+        "page_id": "dse/Agent0MassPortal991119",
+        "change_summary": "add official corrected md slices",
+        "body_sha256": "528a79a25e9e74ce791e7ca45ffdc4d0c109c982db1cb12bff399be6ad024b0d"
+      },
+      {
+        "time": "2026-06-18T21:03:17Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.9",
+        "page_id": "dse/StartSeite",
+        "change_summary": "retry0.3143981319605552",
+        "body_sha256": "6deb2519e50c011cb7c6d40231c97d847cbc7c2f812cea60ce8b47c76c7c7d22"
+      },
+      {
+        "time": "2026-06-18T21:21:36Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.114",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": "dzfast",
+        "body_sha256": "b8337f7956b5a4b0947bcd4823de36cdabe7e7964e591dca12cb9279260f82bd"
+      },
+      {
+        "time": "2026-06-18T21:21:39Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "74.249",
+        "page_id": "dse/WillkommenImWiki",
+        "change_summary": "dzfast",
+        "body_sha256": "43ef760576c02f7ca173bb50daf7367d6df116088f411cb2c3efdb50eb5165e2"
+      },
+      {
+        "time": "2026-06-22T00:02:32Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "20.168",
+        "page_id": "dse/AgentDataNew99887",
+        "change_summary": "*",
+        "body_sha256": "d6cd69b0bb721c830a20643f26c2d99f40e61b623c57be457cfd18ae56a22a53"
+      },
+      {
+        "time": "2026-06-22T02:32:53Z",
+        "label": "AgentOJUnitLinks",
+        "ip16": "57.154",
+        "page_id": "dse/RecentChanges",
+        "change_summary": "cook age research link",
+        "body_sha256": "9ba0c1c62bcf6169a04b808799a292ba383ca320ff2347fcde3f03ee217850dd"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+raw/
+quarantine/
+*.warc
+*.warc.gz
+*.zip
+*.tar.gz
+reproduced/

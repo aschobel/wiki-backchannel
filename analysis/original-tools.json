@@ -1,0 +1,77 @@
+[
+  {
+    "path": "tools/original/acquire_additional_prowiki.sh",
+    "source_path": "tools/acquire_additional_prowiki.sh",
+    "sha256": "051a4e3ddb8c450309067f28dc8cd4fa4ec3de086c7a5a298d51f2c2d354ea4f"
+  },
+  {
+    "path": "tools/original/acquire_public_logs.sh",
+    "source_path": "tools/acquire_public_logs.sh",
+    "sha256": "4fa0a591729f584c97b23fa0622717f5978f1b4981ff248b8dd6304ff2dc8100"
+  },
+  {
+    "path": "tools/original/acquire_warc.sh",
+    "source_path": "tools/acquire_warc.sh",
+    "sha256": "b5b847a637f4874f00a594badc9e80e3d21c99b0866c735ab02797137fd18416"
+  },
+  {
+    "path": "tools/original/analyze_c2_patterns.py",
+    "source_path": "tools/analyze_c2_patterns.py",
+    "sha256": "282170abc827c7a89ddc24b43ba203286953088f040d10c89ae1f8facb1ce476"
+  },
+  {
+    "path": "tools/original/analyze_state_encoding.py",
+    "source_path": "tools/analyze_state_encoding.py",
+    "sha256": "c4a1101540b30bfc4c52afdb651e41a1d58778963f906ac64543fa7468ff38bd"
+  },
+  {
+    "path": "tools/original/build_actor_candidates.py",
+    "source_path": "tools/build_actor_candidates.py",
+    "sha256": "beb13b0b5d819ec56d56dff93990ebb526a02fb06d0186115f02981edcc6e117"
+  },
+  {
+    "path": "tools/original/build_additional_prowiki_manifest.py",
+    "source_path": "tools/build_additional_prowiki_manifest.py",
+    "sha256": "a6e61f464fd937771ecd8a749f0f6b6fae27219a721ecbd4d4d09ed28cb400cd"
+  },
+  {
+    "path": "tools/original/build_url_manifest.py",
+    "source_path": "tools/build_url_manifest.py",
+    "sha256": "c5d472e90974ced13f30bee0fb9efb3debe24a3b92a59aa4b8f1a320235c44c9"
+  },
+  {
+    "path": "tools/original/extract_hn_links.py",
+    "source_path": "tools/extract_hn_links.py",
+    "sha256": "7b08bbf6e3683166e0b4cba0522c442a74e5954729f1e7abc8b4d0dc45a54e76"
+  },
+  {
+    "path": "tools/original/extract_outbound_artifacts.py",
+    "source_path": "tools/extract_outbound_artifacts.py",
+    "sha256": "df99bdb402391e6ed8549576d26bd2eb31e03263795b61f397fe733c6dcdae6a"
+  },
+  {
+    "path": "tools/original/extract_paste_indexes.py",
+    "source_path": "tools/extract_paste_indexes.py",
+    "sha256": "3add35acae1d7652d2e531845901f26487cf0a518b2a62b635aff6201c2a8a72"
+  },
+  {
+    "path": "tools/original/finalize_inventory.sh",
+    "source_path": "tools/finalize_inventory.sh",
+    "sha256": "1366b94e64fa2da6e9973235602a5d6cb1ecb18736f6fad281e603e081143853"
+  },
+  {
+    "path": "tools/original/profile_actor_labels.py",
+    "source_path": "tools/profile_actor_labels.py",
+    "sha256": "48f1540ee7b42113175f7825958e5d2148ba1e27362e8b1a453f057e5f94344f"
+  },
+  {
+    "path": "tools/original/search_brave.py",
+    "source_path": "tools/search_brave.py",
+    "sha256": "34f6065d8fa87f79c985e0ef365180bf12f5fb72c03c73659e06f3a73c6856d8"
+  },
+  {
+    "path": "tools/original/summarize_public_logs.py",
+    "source_path": "tools/summarize_public_logs.py",
+    "sha256": "d4f0012d23ca4ba51f1cedeba28914965fbd9af6b9d20c049d625af8624c464f"
+  }
+]

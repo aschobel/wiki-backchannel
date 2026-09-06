@@ -1,0 +1,1 @@
+					<li><span class='best_year'>Year 2026</span><ul style='display:block' id='details_year2026'><li><span class='best_month'><a href='' class='details' id='more_month202606'>June</a></span><ul style='display:none' id='details_month202606'><li class="bestday">18: 16153 hits</li>

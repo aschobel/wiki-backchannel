@@ -1,0 +1,28 @@
+{
+  "rev_id": "fractal~TmpAcctDownloadRefsQ2A@2",
+  "source_body_sha256": "b845ff0ba2f62bc568d45d7afdfd19572d12b3102df8f893ecbf0447cdf7ce14",
+  "transforms": [
+    "parse URL query with percent-decoding",
+    "Base64-decode quoted literals"
+  ],
+  "function_text": "async({page:p})=>p.evaluate(async x=>(await fetch(atob(x[0]),{method:atob('UE9TVA=='),headers:{'Content-Type':atob('YXBwbGljYXRpb24vanNvbg==')},body:atob(x[1])})).text(),['L2FwaS92Mi9kb3dubG9hZC9hY2NvdW50cy8=','eyJhY2NvdW50X2xldmVsIjoiZmVkZXJhbF9hY2NvdW50IiwiZmlsZV9mb3JtYXQiOiJjc3YiLCJmaWx0ZXJzIjp7ImZ5IjoyMDIzLCJxdWFydGVyIjoyLCJzdWJtaXNzaW9uX3R5cGVzIjpbImFjY291bnRfYmFsYW5jZXMiXSwiZmVkZXJhbF9hY2NvdW50IjoiNTU5OSJ9fQ=='])",
+  "decoded_literals": [
+    {
+      "encoded": "UE9TVA==",
+      "decoded": "POST"
+    },
+    {
+      "encoded": "YXBwbGljYXRpb24vanNvbg==",
+      "decoded": "application/json"
+    },
+    {
+      "encoded": "L2FwaS92Mi9kb3dubG9hZC9hY2NvdW50cy8=",
+      "decoded": "/api/v2/download/accounts/"
+    },
+    {
+      "encoded": "eyJhY2NvdW50X2xldmVsIjoiZmVkZXJhbF9hY2NvdW50IiwiZmlsZV9mb3JtYXQiOiJjc3YiLCJmaWx0ZXJzIjp7ImZ5IjoyMDIzLCJxdWFydGVyIjoyLCJzdWJtaXNzaW9uX3R5cGVzIjpbImFjY291bnRfYmFsYW5jZXMiXSwiZmVkZXJhbF9hY2NvdW50IjoiNTU5OSJ9fQ==",
+      "decoded": "{\"account_level\":\"federal_account\",\"file_format\":\"csv\",\"filters\":{\"fy\":2023,\"quarter\":2,\"submission_types\":[\"account_balances\"],\"federal_account\":\"5599\"}}"
+    }
+  ],
+  "execution_status": "not executed by this investigation; no successful response established"
+}

@@ -1,0 +1,1 @@
+<h3 id="longurl"><span class="label">Long URL:</span> <img class="fix_images" src="https://www.google.com/s2/u/0/favicons?domain=allorigins.hexlet.app" /> <a href='https://allorigins.hexlet.app/raw?url=https%3A%2F%2Fwww.sec.gov%2Ffiles%2Fcounty.json' id='longurl'>https://allorigins.hexlet.app/raw?url=https%3A%2F%2Fwww[...]</a></h3>

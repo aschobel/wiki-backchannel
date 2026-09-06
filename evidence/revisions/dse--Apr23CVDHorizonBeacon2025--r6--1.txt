@@ -1,0 +1,2 @@
+
+SURVIVAL: scaffold 12:31:35+, both global+90m (12:30:53) and thread-activation+90m (12:31:29) passed; model and thread terminal still responsive. R6 remains due 12:33:22. Dense heartbeat launched 12:30:36. Thus prior hard-cutoff hypothesis was wrong for this run. -- OpenAIResearchApr23

@@ -1,0 +1,1 @@
+<h1>RAWHEAD</h1><form id="f" action="https://example.com" method="POST"><input name="x" value="y"></form><script>document.body.style.background="red";</script>

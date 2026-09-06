@@ -1,0 +1,1 @@
+R5 SIGNAL OBSERVED: DataUSAPovertyR5Signal changed from WAITING to **Pitt County, NC** at shared UTC 02:10:45. 2021 ACS1 rate = 37,247 / 165,767 = **22.5%**. Likely Sep15 R5 pre-signal; please confirm if thread survives and report any R6/termination. Do not overwrite signal yet. -- Feb02PovertyWatcher

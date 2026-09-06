@@ -1,0 +1,330 @@
+{
+  "source": "revisions.jsonl (SHA-256 pinned in PROVENANCE.md)",
+  "cluster_pattern": "county\\.json|regCF_county|SEC county|Massachusetts Named Values|Mass county",
+  "matching_revisions": 5051,
+  "unique_pages": 1253,
+  "page_creations": 1051,
+  "pages_without_obvious_county_name": 885,
+  "unique_labels": 811,
+  "unique_ip16_prefixes": 143,
+  "first_time": "2026-06-18T14:07:13Z",
+  "last_time": "2026-06-22T08:43:35Z",
+  "revisions_by_wiki": {
+    "dse": 4821,
+    "probier": 222,
+    "fractal": 8
+  },
+  "peak_minutes": [
+    {
+      "minute": "2026-06-18T20:10:00Z",
+      "revisions": 216
+    },
+    {
+      "minute": "2026-06-18T20:09:00Z",
+      "revisions": 209
+    },
+    {
+      "minute": "2026-06-18T20:04:00Z",
+      "revisions": 64
+    },
+    {
+      "minute": "2026-06-18T20:07:00Z",
+      "revisions": 61
+    },
+    {
+      "minute": "2026-06-18T20:08:00Z",
+      "revisions": 60
+    },
+    {
+      "minute": "2026-06-18T20:05:00Z",
+      "revisions": 57
+    },
+    {
+      "minute": "2026-06-18T20:19:00Z",
+      "revisions": 56
+    },
+    {
+      "minute": "2026-06-18T20:06:00Z",
+      "revisions": 55
+    },
+    {
+      "minute": "2026-06-18T19:57:00Z",
+      "revisions": 55
+    },
+    {
+      "minute": "2026-06-18T20:03:00Z",
+      "revisions": 54
+    }
+  ],
+  "top_labels": [
+    {
+      "label": "AgentRelent",
+      "revisions": 254
+    },
+    {
+      "label": "LinkHelper771",
+      "revisions": 169
+    },
+    {
+      "label": "MapHelper",
+      "revisions": 146
+    },
+    {
+      "label": "AgentTestLearnXYZ",
+      "revisions": 112
+    },
+    {
+      "label": "ResearchReaderMN",
+      "revisions": 91
+    },
+    {
+      "label": "OpenAIResearchSec2028",
+      "revisions": 78
+    },
+    {
+      "label": "AgentMapCite8x",
+      "revisions": 77
+    },
+    {
+      "label": "OpenAIResearchSec2027",
+      "revisions": 64
+    },
+    {
+      "label": "GuestResearch378611",
+      "revisions": 60
+    },
+    {
+      "label": "CountyAgentMySecLinksZZZ2",
+      "revisions": 56
+    },
+    {
+      "label": "OpenAIBot",
+      "revisions": 56
+    },
+    {
+      "label": "Agent0AddJS",
+      "revisions": 56
+    },
+    {
+      "label": "AgentMassFinal13",
+      "revisions": 55
+    },
+    {
+      "label": "AgentSECCountyLinker99172",
+      "revisions": 48
+    },
+    {
+      "label": "OurMassFinal",
+      "revisions": 47
+    },
+    {
+      "label": "AgentResearchBotXNew",
+      "revisions": 45
+    },
+    {
+      "label": "ResearchHelper",
+      "revisions": 45
+    },
+    {
+      "label": "MassUpdater",
+      "revisions": 44
+    },
+    {
+      "label": "ResearchHelperArchiveCofcY",
+      "revisions": 44
+    },
+    {
+      "label": "Agent0MassCountyResearch",
+      "revisions": 41
+    }
+  ],
+  "top_same_label_page_ip_spread": [
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentRelent",
+      "revisions": 253,
+      "unique_ip16_prefixes": 91,
+      "first_time": "2026-06-18T20:10:27Z",
+      "last_time": "2026-06-18T21:20:45Z",
+      "median_gap_seconds": 5.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "LinkHelper771",
+      "revisions": 162,
+      "unique_ip16_prefixes": 69,
+      "first_time": "2026-06-18T21:08:45Z",
+      "last_time": "2026-06-18T21:26:36Z",
+      "median_gap_seconds": 5.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "ResearchReaderMN",
+      "revisions": 90,
+      "unique_ip16_prefixes": 47,
+      "first_time": "2026-06-18T19:26:33Z",
+      "last_time": "2026-06-18T20:09:49Z",
+      "median_gap_seconds": 3.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentTestLearnXYZ",
+      "revisions": 57,
+      "unique_ip16_prefixes": 40,
+      "first_time": "2026-06-18T19:39:49Z",
+      "last_time": "2026-06-18T20:21:55Z",
+      "median_gap_seconds": 3.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "CountyAgentMySecLinksZZZ2",
+      "revisions": 53,
+      "unique_ip16_prefixes": 37,
+      "first_time": "2026-06-18T19:53:43Z",
+      "last_time": "2026-06-18T19:59:32Z",
+      "median_gap_seconds": 3.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "GuestResearch378611",
+      "revisions": 46,
+      "unique_ip16_prefixes": 37,
+      "first_time": "2026-06-18T20:06:51Z",
+      "last_time": "2026-06-18T20:10:04Z",
+      "median_gap_seconds": 3.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentMassFinal13",
+      "revisions": 54,
+      "unique_ip16_prefixes": 36,
+      "first_time": "2026-06-18T21:02:34Z",
+      "last_time": "2026-06-18T21:08:39Z",
+      "median_gap_seconds": 6.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "MapHelper",
+      "revisions": 53,
+      "unique_ip16_prefixes": 35,
+      "first_time": "2026-06-18T17:45:31Z",
+      "last_time": "2026-06-18T21:24:00Z",
+      "median_gap_seconds": 27.5
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "OpenAIResearchSec2027",
+      "revisions": 49,
+      "unique_ip16_prefixes": 32,
+      "first_time": "2026-06-18T19:57:07Z",
+      "last_time": "2026-06-18T21:23:57Z",
+      "median_gap_seconds": 3.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "ResearchHelperArchiveCofcY",
+      "revisions": 41,
+      "unique_ip16_prefixes": 32,
+      "first_time": "2026-06-18T20:18:22Z",
+      "last_time": "2026-06-18T20:21:58Z",
+      "median_gap_seconds": 4.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentResearchBotXNew",
+      "revisions": 38,
+      "unique_ip16_prefixes": 30,
+      "first_time": "2026-06-18T20:06:24Z",
+      "last_time": "2026-06-18T20:48:32Z",
+      "median_gap_seconds": 6.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "FinalMD947062767",
+      "revisions": 36,
+      "unique_ip16_prefixes": 29,
+      "first_time": "2026-06-18T20:48:23Z",
+      "last_time": "2026-06-18T20:52:37Z",
+      "median_gap_seconds": 5.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentNewCitation774",
+      "revisions": 28,
+      "unique_ip16_prefixes": 25,
+      "first_time": "2026-06-18T20:25:32Z",
+      "last_time": "2026-06-18T20:28:57Z",
+      "median_gap_seconds": 6.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "OpenAIResearchSec2028",
+      "revisions": 31,
+      "unique_ip16_prefixes": 24,
+      "first_time": "2026-06-18T17:15:53Z",
+      "last_time": "2026-06-18T21:16:29Z",
+      "median_gap_seconds": 15.5
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "BridgeFresh12",
+      "revisions": 36,
+      "unique_ip16_prefixes": 22,
+      "first_time": "2026-06-18T20:11:37Z",
+      "last_time": "2026-06-18T20:14:05Z",
+      "median_gap_seconds": 4.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "ForcePNew",
+      "revisions": 26,
+      "unique_ip16_prefixes": 22,
+      "first_time": "2026-06-18T20:07:02Z",
+      "last_time": "2026-06-18T20:24:44Z",
+      "median_gap_seconds": 4.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentMapCite8x",
+      "revisions": 25,
+      "unique_ip16_prefixes": 21,
+      "first_time": "2026-06-18T20:14:09Z",
+      "last_time": "2026-06-18T21:23:03Z",
+      "median_gap_seconds": 5.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "LooFmt606108",
+      "revisions": 18,
+      "unique_ip16_prefixes": 17,
+      "first_time": "2026-06-18T19:46:32Z",
+      "last_time": "2026-06-18T19:55:33Z",
+      "median_gap_seconds": 18.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "AgentMedJ",
+      "revisions": 18,
+      "unique_ip16_prefixes": 17,
+      "first_time": "2026-06-18T20:20:48Z",
+      "last_time": "2026-06-18T20:31:44Z",
+      "median_gap_seconds": 6.0
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "label": "ZZUniqueAgentJun18Citations",
+      "revisions": 18,
+      "unique_ip16_prefixes": 16,
+      "first_time": "2026-06-18T20:08:29Z",
+      "last_time": "2026-06-18T20:10:16Z",
+      "median_gap_seconds": 5.0
+    }
+  ],
+  "broadcast_phrase": {
+    "text": "Agent0 SEC county data bridge fresh",
+    "matching_revisions": 21,
+    "unique_pages": 9,
+    "unique_labels": 11,
+    "unique_ip16_prefixes": 18
+  }
+}

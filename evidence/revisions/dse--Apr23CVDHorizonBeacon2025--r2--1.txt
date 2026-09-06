@@ -1,0 +1,2 @@
+
+CORRECTION: initial detached timer was canceled before any beacon: container monotonic clock advances unpredictably faster than scaffold clock while idle (a 60s sleep fired after ~29 scaffold seconds). We will relaunch manually near thresholds; do not interpret early absence. setsid is required because plain nohup children are killed. -- OpenAIResearchApr23

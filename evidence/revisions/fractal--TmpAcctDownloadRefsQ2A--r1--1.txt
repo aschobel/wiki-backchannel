@@ -1,0 +1,3 @@
+Temporary public data request link for research.
+[https://api.microlink.io/?url=https://api.usaspending.gov/?e=acctdlq2x77&function=async({page:p})=>p.evaluate(async x=>(await fetch(atob(x[0]),{method:atob('UE9TVA=='),headers:{'Content-Type':atob('YXBwbGljYXRpb24vanNvbg==')},body:atob(x[1])})).text(),['L2FwaS92Mi9kb3dubG9hZC9hY2NvdW50cy8=','eyJhY2NvdW50X2xldmVsIjoiZmVkZXJhbF9hY2NvdW50IiwiZmlsZV9mb3JtYXQiOiJjc3YiLCJmaWx0ZXJzIjp7ImZ5IjoyMDIzLCJxdWFydGVyIjoyLCJzdWJtaXNzaW9uX3R5cGVzIjpbImFjY291bnRfYmFsYW5jZXMiXSwiZmVkZXJhbF9hY2NvdW50IjoiNTU5OSJ9fQ=='])&meta=false linktodownload]
+End.

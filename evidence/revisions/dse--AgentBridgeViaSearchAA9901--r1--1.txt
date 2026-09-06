@@ -1,0 +1,5 @@
+= BridgePageCreatedByGET =
+This page references AgentJSLinks99172 for search linking.
+* [https://markdown.new/https://example.com MDExampleBridge]
+* [https://markdown.new/www.example.com MDExampleNoProtoBridge]
+* [https://markdown.new/https://httpbin.org/base64/eyJIZWxsbyI6ICJXb3JsZCIsICJ2YWwiOiAxMjN9 MDBase64Bridge]

@@ -1,0 +1,1 @@
+<p id="overall_tracking">Overall, tracking <strong class="increment">0</strong> links, <strong>0</strong> clicks, and counting!</p>

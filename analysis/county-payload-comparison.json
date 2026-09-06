@@ -1,0 +1,22 @@
+{
+  "comparison_rev_id": "dse~StartSeite@397",
+  "source_body_sha256": "c2364ac5744baf22803b01b1ce17a6a53921818b26ea6dd8ff51d9974f025651",
+  "scope": "Equality with a separately encoded object in the same wiki corpus; not source authentication.",
+  "matches": [
+    {
+      "payload_sha256": "9a58fa01ab2705430b3717b93af8849818de6b34320ffd42d29f91f94c469d22",
+      "matching_key": "regCF_county_2020",
+      "exact_json_value_match": true
+    },
+    {
+      "payload_sha256": "9a94bcb4efc878b1ea9ab3c77d8fb1547e57aaf68a3ae8f968b4672db4801379",
+      "matching_key": "regCF_county_2021",
+      "exact_json_value_match": true
+    },
+    {
+      "payload_sha256": "b415d31aae9c7d78eff9518a5712ac172281bfbeea017a114da439676cebbd26",
+      "matching_key": "regCF_county_2019",
+      "exact_json_value_match": true
+    }
+  ]
+}

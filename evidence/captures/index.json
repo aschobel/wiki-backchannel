@@ -1,0 +1,112 @@
+[
+  {
+    "file": "evidence/captures/vanderbilt-01.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      2933,
+      3268
+    ],
+    "published_sha256": "3f3a6aecd020db923c789ce24090a2fe190752aa540ead5531dcc94d36d8e0bd",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-02.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      7843,
+      7868
+    ],
+    "published_sha256": "dcfbf315edb3d906cd773014dd27cabdf4911aae3fa6756d1673b3031256abdb",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-03.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      9299,
+      9381
+    ],
+    "published_sha256": "fd2284fb8ec0592d381c1ab6e5536821bdb35ba8daad289dce286754a39abc11",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-04.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      10137,
+      10196
+    ],
+    "published_sha256": "5f509f34f5282aed19c6a5fa27acedf3feee6c99264bacc2587bb719128b9dd5",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-05.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      10341,
+      10621
+    ],
+    "published_sha256": "af7a3b146ea719a785c9f81fc06d73256460b8148a7894c904ac728d0d7386cf",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-06.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      19916,
+      20163
+    ],
+    "published_sha256": "f3994817b6a7bdfdbf934d6ab47d5559f2a0d0ebf9001e3c26561548bfb94a1d",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-07.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      20727,
+      20800
+    ],
+    "published_sha256": "8e255edc9efd4d73364229e5c4850cb5a2a0a321de7002b84524d3d406c847e7",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/vanderbilt-08.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/maallraw260618+",
+    "source_sha256": "30944c75c0342fd3f1569814a5dbb26801b843991495d4d32d5b2edf71931211",
+    "source_byte_range": [
+      20960,
+      21089
+    ],
+    "published_sha256": "f0e8f1ebda97c0543747f7f3e3d51023ec5bd2b4e8676d7906716f91b1c1e8a9",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/yourls-01.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/index.php?search_in=all&sort_by=timestamp&sort_order=desc&page=1077&perpage=15&total_pages=8547&search=",
+    "source_sha256": "9598032fb465e4ab22e747ad89b698fcf1ad74f07d851e9ec2f756670ea0b7fc",
+    "source_byte_range": [
+      4043,
+      4165
+    ],
+    "published_sha256": "9d2fbba1d0a8ced4b54b7242dccbf05e4d1f6f945f6a45c0a64dbd723efc7d35",
+    "redactions": []
+  },
+  {
+    "file": "evidence/captures/yourls-02.txt",
+    "source_path": "acquisition/agentojunit-pivots/20260905T060456Z/mirror/index.php?search_in=all&sort_by=timestamp&sort_order=desc&page=1077&perpage=15&total_pages=8547&search=",
+    "source_sha256": "9598032fb465e4ab22e747ad89b698fcf1ad74f07d851e9ec2f756670ea0b7fc",
+    "source_byte_range": [
+      4165,
+      4298
+    ],
+    "published_sha256": "df59818de744a4a17d85c7df33c0aa45f69121a4720f7904440d67cec4077c81",
+    "redactions": []
+  }
+]

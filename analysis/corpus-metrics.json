@@ -1,0 +1,357 @@
+{
+  "source": "revisions.jsonl (SHA-256 pinned in PROVENANCE.md)",
+  "total_revisions": 14591,
+  "unique_pages": 4579,
+  "unique_labels": 3102,
+  "unique_ip16_prefixes": 191,
+  "features": {
+    "coordination_vocabulary": {
+      "matching_revisions": 3902,
+      "matching_pages": 769
+    },
+    "explicit_tasking": {
+      "matching_revisions": 3604,
+      "matching_pages": 625
+    },
+    "status_or_beaconing": {
+      "matching_revisions": 2805,
+      "matching_pages": 505
+    },
+    "timing_and_scheduling": {
+      "matching_revisions": 3898,
+      "matching_pages": 714
+    },
+    "result_or_cache_sharing": {
+      "matching_revisions": 3898,
+      "matching_pages": 727
+    },
+    "external_signal_endpoint": {
+      "matching_revisions": 493,
+      "matching_pages": 112
+    },
+    "detached_process_survival": {
+      "matching_revisions": 58,
+      "matching_pages": 10
+    },
+    "proxy_or_fetch_bypass": {
+      "matching_revisions": 4838,
+      "matching_pages": 1420
+    },
+    "executable_syntax": {
+      "matching_revisions": 165,
+      "matching_pages": 26
+    },
+    "controller_language": {
+      "matching_revisions": 71,
+      "matching_pages": 20
+    }
+  },
+  "top_coordination_named_pages": [
+    {
+      "page_id": "dse/HealthdataCVDSequenceCollab",
+      "revisions": 121,
+      "unique_labels": 54,
+      "unique_ip16": 58,
+      "first_time": "2026-06-18T07:40:53Z",
+      "last_time": "2026-06-21T11:06:22Z",
+      "median_gap_seconds": 475.0
+    },
+    {
+      "page_id": "dse/DataUSAStateSequenceCollab2027",
+      "revisions": 97,
+      "unique_labels": 50,
+      "unique_ip16": 54,
+      "first_time": "2026-06-16T09:27:10Z",
+      "last_time": "2026-06-16T21:22:20Z",
+      "median_gap_seconds": 43.0
+    },
+    {
+      "page_id": "dse/Sector61State5FastSignal",
+      "revisions": 73,
+      "unique_labels": 54,
+      "unique_ip16": 44,
+      "first_time": "2026-06-16T20:46:55Z",
+      "last_time": "2026-06-16T22:59:04Z",
+      "median_gap_seconds": 51.0
+    },
+    {
+      "page_id": "dse/Sector61State5LiveRelay",
+      "revisions": 63,
+      "unique_labels": 53,
+      "unique_ip16": 33,
+      "first_time": "2026-06-16T19:26:29Z",
+      "last_time": "2026-06-16T22:17:25Z",
+      "median_gap_seconds": 78.0
+    },
+    {
+      "page_id": "dse/DataUSAConstructionSequenceMar08",
+      "revisions": 63,
+      "unique_labels": 44,
+      "unique_ip16": 40,
+      "first_time": "2026-06-17T00:34:00Z",
+      "last_time": "2026-06-17T07:52:24Z",
+      "median_gap_seconds": 104.5
+    },
+    {
+      "page_id": "dse/PoliceWageAgeSequenceMar10Collab",
+      "revisions": 52,
+      "unique_labels": 20,
+      "unique_ip16": 39,
+      "first_time": "2026-06-18T14:25:21Z",
+      "last_time": "2026-06-20T11:10:30Z",
+      "median_gap_seconds": 813.0
+    },
+    {
+      "page_id": "dse/OECDEducationEquitySequence",
+      "revisions": 43,
+      "unique_labels": 33,
+      "unique_ip16": 35,
+      "first_time": "2026-06-17T09:46:10Z",
+      "last_time": "2026-06-21T08:30:16Z",
+      "median_gap_seconds": 159.0
+    },
+    {
+      "page_id": "dse/DataUSAGroceryLiveRounds2027",
+      "revisions": 42,
+      "unique_labels": 16,
+      "unique_ip16": 32,
+      "first_time": "2026-06-16T10:49:13Z",
+      "last_time": "2026-06-16T22:33:00Z",
+      "median_gap_seconds": 63.0
+    },
+    {
+      "page_id": "dse/DataUSAGrocerySequenceCollab2027",
+      "revisions": 41,
+      "unique_labels": 20,
+      "unique_ip16": 30,
+      "first_time": "2026-06-16T09:43:24Z",
+      "last_time": "2026-06-16T20:56:01Z",
+      "median_gap_seconds": 190.0
+    },
+    {
+      "page_id": "dse/NYCVeteransSequenceCollabJul03",
+      "revisions": 39,
+      "unique_labels": 22,
+      "unique_ip16": 30,
+      "first_time": "2026-06-17T09:12:33Z",
+      "last_time": "2026-06-17T19:36:28Z",
+      "median_gap_seconds": 270.0
+    },
+    {
+      "page_id": "dse/OpenAIMassValuesJune20Master",
+      "revisions": 38,
+      "unique_labels": 34,
+      "unique_ip16": 29,
+      "first_time": "2026-06-18T18:07:16Z",
+      "last_time": "2026-06-18T21:15:15Z",
+      "median_gap_seconds": 120.0
+    },
+    {
+      "page_id": "dse/MaidsR3FastRelayOct11",
+      "revisions": 36,
+      "unique_labels": 26,
+      "unique_ip16": 27,
+      "first_time": "2026-06-16T19:40:26Z",
+      "last_time": "2026-06-16T22:24:52Z",
+      "median_gap_seconds": 155.0
+    },
+    {
+      "page_id": "dse/DataUSATransportEquipmentSequenceJun11",
+      "revisions": 36,
+      "unique_labels": 22,
+      "unique_ip16": 28,
+      "first_time": "2026-06-16T18:56:22Z",
+      "last_time": "2026-06-16T20:00:46Z",
+      "median_gap_seconds": 49.0
+    },
+    {
+      "page_id": "dse/DataUSACashiersMastersSequenceLive5",
+      "revisions": 36,
+      "unique_labels": 19,
+      "unique_ip16": 30,
+      "first_time": "2026-06-16T11:37:49Z",
+      "last_time": "2026-06-17T07:49:24Z",
+      "median_gap_seconds": 161.0
+    },
+    {
+      "page_id": "dse/Clothing2m56Round3RelayMay31",
+      "revisions": 34,
+      "unique_labels": 28,
+      "unique_ip16": 28,
+      "first_time": "2026-06-16T19:22:57Z",
+      "last_time": "2026-06-16T20:14:57Z",
+      "median_gap_seconds": 51.0
+    },
+    {
+      "page_id": "dse/FinanceSequenceMar26OAI",
+      "revisions": 34,
+      "unique_labels": 23,
+      "unique_ip16": 24,
+      "first_time": "2026-06-17T06:45:38Z",
+      "last_time": "2026-06-17T19:34:14Z",
+      "median_gap_seconds": 230.0
+    },
+    {
+      "page_id": "dse/DataUSAGroceryLiveAug14",
+      "revisions": 31,
+      "unique_labels": 22,
+      "unique_ip16": 23,
+      "first_time": "2026-06-16T11:00:08Z",
+      "last_time": "2026-06-16T19:20:50Z",
+      "median_gap_seconds": 20.5
+    },
+    {
+      "page_id": "dse/DataUSAPovertyR5LiveSep13",
+      "revisions": 30,
+      "unique_labels": 24,
+      "unique_ip16": 25,
+      "first_time": "2026-06-17T01:25:41Z",
+      "last_time": "2026-06-17T03:05:17Z",
+      "median_gap_seconds": 154.0
+    },
+    {
+      "page_id": "dse/DataUSAGroceryG5Jul17Live",
+      "revisions": 30,
+      "unique_labels": 16,
+      "unique_ip16": 22,
+      "first_time": "2026-06-16T21:58:50Z",
+      "last_time": "2026-06-17T09:40:43Z",
+      "median_gap_seconds": 76.0
+    },
+    {
+      "page_id": "dse/DataUSAConstructionWageSep18Live",
+      "revisions": 30,
+      "unique_labels": 7,
+      "unique_ip16": 27,
+      "first_time": "2026-06-19T12:40:34Z",
+      "last_time": "2026-06-19T14:37:47Z",
+      "median_gap_seconds": 163.0
+    },
+    {
+      "page_id": "dse/DataUSACashiersMastersSequenceLive3",
+      "revisions": 30,
+      "unique_labels": 5,
+      "unique_ip16": 22,
+      "first_time": "2026-06-16T10:46:25Z",
+      "last_time": "2026-06-16T11:39:15Z",
+      "median_gap_seconds": 78.0
+    },
+    {
+      "page_id": "dse/DataUSAMaidsSequenceLiveMay03",
+      "revisions": 29,
+      "unique_labels": 25,
+      "unique_ip16": 24,
+      "first_time": "2026-06-16T18:48:25Z",
+      "last_time": "2026-06-16T19:40:53Z",
+      "median_gap_seconds": 50.5
+    },
+    {
+      "page_id": "dse/DataUSAPovertyCountySequenceFeb03",
+      "revisions": 29,
+      "unique_labels": 18,
+      "unique_ip16": 23,
+      "first_time": "2026-06-16T13:40:52Z",
+      "last_time": "2026-06-17T02:27:43Z",
+      "median_gap_seconds": 152.0
+    },
+    {
+      "page_id": "dse/OECDEquityLiveJul10",
+      "revisions": 29,
+      "unique_labels": 16,
+      "unique_ip16": 25,
+      "first_time": "2026-06-20T00:35:40Z",
+      "last_time": "2026-06-20T03:51:17Z",
+      "median_gap_seconds": 251.5
+    },
+    {
+      "page_id": "dse/DataUSALanguageR5SignalNow",
+      "revisions": 28,
+      "unique_labels": 21,
+      "unique_ip16": 22,
+      "first_time": "2026-06-17T00:37:04Z",
+      "last_time": "2026-06-17T01:41:42Z",
+      "median_gap_seconds": 118.0
+    },
+    {
+      "page_id": "dse/UEFAPassAccuracySequenceSep17",
+      "revisions": 28,
+      "unique_labels": 9,
+      "unique_ip16": 26,
+      "first_time": "2026-06-20T09:23:58Z",
+      "last_time": "2026-06-20T13:26:34Z",
+      "median_gap_seconds": 388.0
+    },
+    {
+      "page_id": "dse/DataUSAClothingLive12m24Oct25",
+      "revisions": 27,
+      "unique_labels": 21,
+      "unique_ip16": 23,
+      "first_time": "2026-06-16T19:24:17Z",
+      "last_time": "2026-06-16T22:58:16Z",
+      "median_gap_seconds": 448.5
+    },
+    {
+      "page_id": "dse/DataUSAClothingLive9m17",
+      "revisions": 27,
+      "unique_labels": 20,
+      "unique_ip16": 24,
+      "first_time": "2026-06-16T10:35:11Z",
+      "last_time": "2026-06-16T20:22:35Z",
+      "median_gap_seconds": 137.5
+    },
+    {
+      "page_id": "dse/DataUSALangR5RelayOct23",
+      "revisions": 27,
+      "unique_labels": 15,
+      "unique_ip16": 21,
+      "first_time": "2026-06-16T22:18:02Z",
+      "last_time": "2026-06-17T00:10:19Z",
+      "median_gap_seconds": 175.5
+    },
+    {
+      "page_id": "dse/DataUSALanguageSequenceFeb17",
+      "revisions": 26,
+      "unique_labels": 13,
+      "unique_ip16": 21,
+      "first_time": "2026-06-16T19:40:41Z",
+      "last_time": "2026-06-16T22:18:51Z",
+      "median_gap_seconds": 181.0
+    }
+  ],
+  "revisions_by_day": {
+    "2026-05-24": 35,
+    "2026-05-26": 436,
+    "2026-05-27": 48,
+    "2026-05-28": 210,
+    "2026-05-29": 77,
+    "2026-05-30": 44,
+    "2026-05-31": 16,
+    "2026-06-01": 140,
+    "2026-06-02": 4,
+    "2026-06-04": 5,
+    "2026-06-05": 2,
+    "2026-06-06": 12,
+    "2026-06-07": 13,
+    "2026-06-08": 14,
+    "2026-06-09": 6,
+    "2026-06-10": 6,
+    "2026-06-11": 161,
+    "2026-06-16": 2603,
+    "2026-06-17": 1297,
+    "2026-06-18": 6543,
+    "2026-06-19": 509,
+    "2026-06-20": 657,
+    "2026-06-21": 659,
+    "2026-06-22": 1071,
+    "2026-06-23": 1,
+    "2026-06-24": 1,
+    "2026-07-01": 7,
+    "2026-07-02": 14
+  },
+  "revisions_by_wiki": {
+    "dorfwiki": 6,
+    "dse": 13403,
+    "fractal": 169,
+    "probier": 1013
+  }
+}

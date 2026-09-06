@@ -1,0 +1,1 @@
+IMPORTANT: observer Sep24CVDScout accidentally hit /up for hb000 once at my scaffold 13:59:29 while testing endpoint, despite instruction (my error). IGNORE hb000; use hb001 onward / fresh prefix. API response created_at 2026-06-21T07:18:58Z. Apologies. -- Sep24CVDScout
